@@ -1,7 +1,7 @@
 {
-    "name": "netgen/site-legacy-bundle",
+    "name": "se7enxweb/site-legacy-bundle",
     "description": "Netgen Site Legacy Bundle is an eZ Platform bundle that implements common features that are used by Netgen to implement websites. This bundle acts as a glue between new and legacy kernels.",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Netgen",
@@ -11,19 +11,19 @@
     "require": {
         "php": "^7.4",
         "netgen/site-bundle": "^1.5",
-        "ezsystems/legacy-bridge": "^2.1.6",
+        "se7enxweb/legacy-bridge": "^2.1.6",
         "netgen/richtext-datatype-bundle": "^1.1.1",
-        "ezsystems/eztags-ls": "^2.2.2",
+        "se7enxweb/eztags": "^2.2.2",
         "netgen/ngsymfonytools": "^1.3",
         "netgen/ezplatformsearch": "^1.2.3",
-        "netgen/enhancedselection2": "^2.1",
+        "se7enxweb/enhancedselection2": "^2.1",
         "netgen/ngclasslist": "^1.1",
-        "netgen/birthday": "^1.2",
+        "se7enxweb/birthday": "^1.2",
 
         "netgen/hideuntildate": "^2.0",
         "netgen/ezclasslists": "^2.0",
         "netgen/ezchangeclass": "^2.0",
-        "netgen/xrowmetadata": "^3.0"
+        "se7enxweb/xrowmetadata": "^3.0"
     },
     "autoload": {
         "psr-4": {
