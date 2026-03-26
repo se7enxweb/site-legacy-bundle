@@ -6,10 +6,10 @@ namespace Netgen\Bundle\SiteLegacyBundle\Core\FieldType\XmlText\Converter;
 
 use DOMDocument;
 use eZ\Publish\Core\FieldType\XmlText\Converter\EmbedToHtml5 as BaseEmbedToHtml5;
-use Ibexa\Contracts\Core\Repository\Exceptions\NotFoundException as APINotFoundException;
-use Ibexa\Contracts\Core\Repository\Repository;
-use Ibexa\Contracts\Core\Repository\Values\Content\VersionInfo as APIVersionInfo;
-use Ibexa\Core\Base\Exceptions\UnauthorizedException;
+use eZ\Publish\API\Repository\Exceptions\NotFoundException as APINotFoundException;
+use eZ\Publish\API\Repository\Repository;
+use eZ\Publish\API\Repository\Values\Content\VersionInfo as APIVersionInfo;
+use eZ\Publish\Core\Base\Exceptions\UnauthorizedException;
 use Netgen\IbexaSiteApi\API\Values\Content;
 use Netgen\IbexaSiteApi\API\Values\Location;
 use Netgen\IbexaSiteApi\Core\Traits\SiteAwareTrait;

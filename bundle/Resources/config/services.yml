@@ -3,7 +3,7 @@ services:
         class: Netgen\Bundle\SiteLegacyBundle\LegacyMapper\Configuration
         public: false
         arguments:
-            - "@ibexa.config.resolver"
+            - "@ezpublish.config.resolver"
         tags:
             - { name: kernel.event_subscriber }
 
@@ -22,6 +22,6 @@ services:
         tags:
             - { name: kernel.event_subscriber }
 
-    ibexa.spi.search:
-        alias: Ibexa\Contracts\Core\Search\VersatileHandler
+    ezpublish.spi.search:
+        alias: eZ\Publish\SPI\Search\VersatileHandler
         public: true

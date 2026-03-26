@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Netgen\Bundle\SiteLegacyBundle\DependencyInjection\Compiler;
 
-use Ibexa\Contracts\Core\Persistence\Handler;
+use eZ\Publish\SPI\Persistence\Handler;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
@@ -30,8 +30,8 @@ class PublicServicesPass implements CompilerPassInterface
                 ->setPublic(true);
         }
 
-        if ($container->has('ibexa.api.repository')) {
-            $container->findDefinition('ibexa.api.repository')
+        if ($container->has('ezpublish.api.repository')) {
+            $container->findDefinition('ezpublish.api.repository')
                 ->setPublic(true);
         }
 

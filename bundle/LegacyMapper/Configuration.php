@@ -6,7 +6,7 @@ namespace Netgen\Bundle\SiteLegacyBundle\LegacyMapper;
 
 use eZ\Publish\Core\MVC\Legacy\Event\PreBuildKernelEvent;
 use eZ\Publish\Core\MVC\Legacy\LegacyEvents;
-use Ibexa\Contracts\Core\SiteAccess\ConfigResolverInterface;
+use eZ\Publish\Core\MVC\ConfigResolverInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 use function is_array;
