@@ -22,6 +22,6 @@ services:
         tags:
             - { name: kernel.event_subscriber }
 
-    ezpublish.spi.search:
-        alias: eZ\Publish\SPI\Search\VersatileHandler
+    eZ\Publish\SPI\Search\VersatileHandler:
+        alias: ezpublish.spi.search
         public: true
