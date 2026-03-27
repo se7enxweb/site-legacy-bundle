@@ -10,9 +10,9 @@ use eZ\Publish\API\Repository\Exceptions\NotFoundException as APINotFoundExcepti
 use eZ\Publish\API\Repository\Repository;
 use eZ\Publish\API\Repository\Values\Content\VersionInfo as APIVersionInfo;
 use eZ\Publish\Core\Base\Exceptions\UnauthorizedException;
-use Netgen\IbexaSiteApi\API\Values\Content;
-use Netgen\IbexaSiteApi\API\Values\Location;
-use Netgen\IbexaSiteApi\Core\Traits\SiteAwareTrait;
+use Netgen\EzPlatformSiteApi\API\Values\Content;
+use Netgen\EzPlatformSiteApi\API\Values\Location;
+use Netgen\EzPlatformSiteApi\Core\Traits\SiteAwareTrait;
 use Psr\Log\NullLogger;
 use Symfony\Component\HttpKernel\Controller\ControllerReference;
 
