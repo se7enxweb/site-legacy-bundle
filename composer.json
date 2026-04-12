@@ -15,7 +15,6 @@
     "require": {
         "php": "^8.4",
         "se7enxweb/site-bundle": "^5.0",
-        "netgen/metadata-bundle": "^3.0",
         "ezsystems/eztags-ls": "^2.2.2",
         "se7enxweb/ngsymfonytools": "^4.0.0.0",
         "netgen/ezplatformsearch": "^2.0",
