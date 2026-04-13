@@ -5,14 +5,15 @@ declare(strict_types=1);
 namespace Netgen\Bundle\SiteLegacyBundle\Core\FieldType\XmlText\Converter;
 
 use DOMDocument;
-use eZ\Publish\Core\FieldType\XmlText\Converter\EmbedToHtml5 as BaseEmbedToHtml5;
-use eZ\Publish\API\Repository\Exceptions\NotFoundException as APINotFoundException;
-use eZ\Publish\API\Repository\Repository;
-use eZ\Publish\API\Repository\Values\Content\VersionInfo as APIVersionInfo;
-use eZ\Publish\Core\Base\Exceptions\UnauthorizedException;
+
+use Ibexa\Contracts\Core\Repository\Exceptions\NotFoundException as APINotFoundException;
+use Ibexa\Contracts\Core\Repository\Repository;
+use Ibexa\Contracts\Core\Repository\Values\Content\VersionInfo as APIVersionInfo;
+use Ibexa\Core\Base\Exceptions\UnauthorizedException;
 use Netgen\EzPlatformSiteApi\API\Values\Content;
 use Netgen\EzPlatformSiteApi\API\Values\Location;
-use Netgen\EzPlatformSiteApi\Core\Traits\SiteAwareTrait;
+use eZ\Publish\Core\FieldType\XmlText\Converter\EmbedToHtml5 as BaseEmbedToHtml5;
+use Netgen\IbexaSiteApi\Core\Traits\SiteAwareTrait;
 use Psr\Log\NullLogger;
 use Symfony\Component\HttpKernel\Controller\ControllerReference;
 

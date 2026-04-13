@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Netgen\Bundle\SiteLegacyBundle\DependencyInjection\Compiler;
 
-use eZ\Publish\SPI\Persistence\Handler;
+use Ibexa\Contracts\Core\Persistence\Handler;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 

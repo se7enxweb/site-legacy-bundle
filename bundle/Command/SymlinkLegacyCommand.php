@@ -90,7 +90,7 @@ class SymlinkLegacyCommand extends Command
         $this->setDescription('Symlinks legacy siteaccesses and various other legacy files to their proper locations');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output): ?int
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $this->forceSymlinks = (bool) $input->getOption('force');
 
