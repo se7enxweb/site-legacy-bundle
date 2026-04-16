@@ -16,7 +16,7 @@
         "php": "^8.4",
         "se7enxweb/site-bundle": "^5.0",
         "ezsystems/eztags-ls": "^2.2.2",
-        "se7enxweb/ngsymfonytools": "^4.0.0.0",
+        "se7enxweb/ngsymfonytools": "v5.0.x-dev",
         "netgen/ezplatformsearch": "^2.0",
         "netgen/enhancedselection2": "^2.1",
         "netgen/ngclasslist": "^1.1",
