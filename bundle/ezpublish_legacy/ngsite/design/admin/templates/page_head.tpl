@@ -37,5 +37,5 @@
 
     {/foreach}
 
-    <meta name="generator" content="eZ Publish" />
+    <meta name="generator" content="Exponential" />
 {/default}
