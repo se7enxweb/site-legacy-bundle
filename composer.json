@@ -18,7 +18,7 @@
         "netgen/metadata-bundle": "^3.0",
         "se7enxweb/eztags": "^2.4.24",
         "netgen/ngsymfonytools": "^2.0",
-        "netgen/ezplatformsearch": "^2.0",
+        "netgen/ezplatformsearch": "^1.2.3",
         "netgen/enhancedselection2": "^2.1",
         "netgen/ngclasslist": "^1.1",
         "netgen/birthday": "^1.2",

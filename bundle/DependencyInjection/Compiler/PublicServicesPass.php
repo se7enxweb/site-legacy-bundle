@@ -9,7 +9,7 @@ use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
- * Makes the services required by ngsymfonytools legacy extension public.
+ * Makes the services required by the ngsymfonytools and ezplatformsearch legacy extensions public.
  */
 class PublicServicesPass implements CompilerPassInterface
 {
@@ -38,6 +38,15 @@ class PublicServicesPass implements CompilerPassInterface
         if ($container->has(Handler::class)) {
             $container->findDefinition(Handler::class)
                 ->setPublic(true);
+        }
+
+        // The ezplatformsearch legacy search plugin (1.2, the eZ namespace release) fetches
+        // these from the container when the legacy kernel searches or indexes content.
+        foreach (['ezpublish.spi.search', 'ezpublish.api.storage_engine'] as $serviceId) {
+            if ($container->has($serviceId)) {
+                $container->findDefinition($serviceId)
+                    ->setPublic(true);
+            }
         }
     }
 }
