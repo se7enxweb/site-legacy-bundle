@@ -25,7 +25,7 @@
         "netgen/birthday": "^1.2",
 
         "netgen/hideuntildate": "^2.0",
-        "netgen/ezclasslists": "^2.1",
+        "se7enxweb/netgen-ezclasslists": "^2.1.1",
         "netgen/ezchangeclass": "^2.0",
         "netgen/xrowmetadata": "^3.0"
     },
