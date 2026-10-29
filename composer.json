@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.1",
+        "php": "^7.4 || ^8.0",
         "netgen/site-bundle": "^3.0",
         "netgen/metadata-bundle": "^4.0",
         "se7enxweb/legacy-bridge": "^4.0.0.6",
